@@ -1,22 +1,51 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 </head>
 <body>
 <div class="reveal">
     <div class="slides">
         <section>
             <h1>Internet of Things and IPv6</h1>
-            <h2>Parham Alvani</h2>
-            <h3>parham.alvani@gmail.com</h3>
+            <h5>Parham Alvani</h5>
+            <span>parham.alvani@gmail.com</span>
         </section>
-        <section>Slide 2</section>
+        <section>
+            <section>
+                <h2>Outline</h2>
+                <ul>
+                    <li>IPv6</li>
+                    <li>IoT</li>
+                    <li>IoT + IPv6</li>
+                </ul>
+            </section>
+            <section>
+                <h2>IPv6</h2>
+                <ul>
+                    <li>IPng</li>
+                    <li>Simplified Header</li>
+                    <li>Larger Address Space</li>
+                    <li>Faster Forwarding/Routing</li>
+                    <li>ZeroConf Networking</li>
+                    <li>New Service Model in Network Layer</li>
+                    <ul>
+                        <li>IPSec</li>
+                        <li>AnyCast and No BroadCast</li>
+                        <li>Flow based Routing and Forwarding</li>
+                        <li>Neighbour Discovery</li>
+                    </ul>
+                </ul>
+            </section>
+        </section>
     </div>
 </div>
 <script src="js/reveal.js"></script>
 <script>
-    Reveal.initialize();
+    Reveal.initialize({
+        controls: true,
+        slideNumber: true
+    });
 </script>
 </body>
 </html>
