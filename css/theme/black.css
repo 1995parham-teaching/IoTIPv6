@@ -78,6 +78,28 @@ body {
 }
 
 /*********************************************
+ * BOXES
+ *********************************************/
+
+.reveal .box {
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #919096;
+    box-shadow: 5px 5px 5px 0;
+}
+
+.reveal .box header {
+    background-color: #656469;
+    border-radius: 5px 5px 0 0;
+    color: #DD8F33;
+}
+
+.reveal .box p {
+    font-style: italic;
+}
+
+/*********************************************
  * OTHER
  *********************************************/
 .reveal p {
@@ -96,13 +118,15 @@ body {
 .reveal strong,
 .reveal b {
     font-weight: bold;
+    color: #ff7f50;
 }
 
 .reveal em {
     font-style: italic;
+    color: #3399ff;
 }
 
-.reveal li .active {
+.reveal li.active {
     color: #9ef07d;
 }
 
