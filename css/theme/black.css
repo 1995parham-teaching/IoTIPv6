@@ -341,6 +341,7 @@ body {
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
+
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
     border-right-color: #42affa;
